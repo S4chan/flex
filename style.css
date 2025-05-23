@@ -200,7 +200,10 @@ header a {
 }
 
 .intro {
+  max-width: 1920px;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .intro-left,
@@ -464,7 +467,8 @@ header a {
   top: 50%;
   left: 50%;
   transform: translate(-50%);
-  width: 1432px;
+  width: 100%;
+  max-width: 1432px;
   display: flex;
   justify-content: space-between;
   z-index: 999;
